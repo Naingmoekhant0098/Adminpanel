@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js">
+   ist/css/boo <link rel="stylesheet" href="fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/all.min.csshttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class=" ">
+
+    <div class="container-fluid p-0 m-0" id="main">
+        <div class="row g-0">
+            <div class="col-12 col-md-2 col-sm-12   pe-3 ps-3 pt-2 pb-2">
+                <div class="header  mt-3">
+                    <i class="fa-brands fa-medium"></i>
+                    <span>Kazuki Admin</span>
+                </div>
+
+
+
+                <div class="navs mt-5">
+                    <div class="nav"><i class="fa-solid fa-home me-2"></i><span>Dashboard</span></div>
+                    <div class="nav"><i class="fa-solid fa-user-circle me-2"></i><span>Profile</span></div>
+                    <div class="nav"><i class="fa-solid fa-chart-simple me-2"></i><span>Statistic</span></div>
+                    <div class="nav"><i class="fa-solid fa-users me-2"></i><span>New Users</span></div>
+                    <div class="nav"><i class="fa-solid fa-pen-to-square me-2"></i><span>Update Data</span></div>
+                    <div class="nav"><i class="fa-solid fa-bug me-2"></i><span>Report</span></div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-10 col-sm-12  px-4 py-2 sec ">
+
+                <div class="card p-3 ">
+                    <div class="nav_container ">
+                        <div class="search">
+                            <input type="text" name="" id="" class="sr" placeholder="Search">
+                            <button class="search_btn">
+                                search
+                            </button>
+
+                        </div>
+
+                        <div class="notiAndProfile">
+                            <div class="noti">
+                                <i class="fa-solid fa-bell position-relative">
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle bg-danger p-1 border border-light rounded-circle"></span>
+
+                                </i>
+                                <i class="fa-solid fa-envelope position-relative">
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle bg-danger p-1 border border-light rounded-circle"></span>
+
+                                </i>
+
+                                <i class="fa-solid fa-moon " id="changeDark">
+
+
+                                </i>
+                                <i class="fa-solid fa-sun " id="changeLight"></i>
+                            </div>
+                            <div class="profile">
+                                <!-- Example split danger button -->
+                                <div class="btn-group ms-3">
+                                    <img src="naing.jpg" alt="" srcset=" " class="pf">
+                                    <span class="dropdown-toggle dropdown-toggle-split align-self-center"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+
+                                    </span>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="dashboard_container my-3 ">
+                    <div class="iconAndText">
+                        <i class="fa-solid fa-home me-2"></i>
+                        <span class="text">
+                            Dashboard
+                        </span>
+
+                    </div>
+                    <div class="overview">
+                        <span class="ovText me-1">
+                            Overview
+                        </span>
+                        <i class="fa-solid fa-circle-info  "></i>
+                    </div>
+                </div>
+
+
+
+                <div class="row total-graph flex-column flex-lg-row my-4">
+                    <div class="col">
+                        <div class="card mb-3 p-3 c "
+                            style="height: 180px; background-image: linear-gradient(102.4deg,rgba(253,189,85,1)7.8%,rgba(249,131,225,1)100.3%);"
+                            id="card">
+                            <div class="card-body">
+
+                                <div class="weeklySaleTextAndIcon">
+                                    <span>
+                                        Weekly Sale
+
+                                    </span>
+                                    <i class="fas fa-chart-line"></i>
+
+                                    </i>
+                                </div>
+                                <h4 class="my-4">$ 15,0000</h4>
+
+
+                                <div class="increase">
+                                    Increased by 60%
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3 p-3 c"
+                            style="height: 180px;background-image: radial-gradient(circle farthest-corner at 92.3% 71.5%,rgba(83,138,214,1)0%,rgba(134,231,214,1)90%);"
+                            id="card">
+                            <div class="card-body">
+
+                                <div class="weeklySaleTextAndIcon">
+                                    <span>
+                                        Weekly Orders
+
+                                    </span>
+                                    <i class="fas fa-cart-shopping"></i>
+
+                                    </i>
+                                </div>
+                                <h4 class="my-4">65,000</h4>
+
+
+                                <div class="increase">
+                                    Increased by 60%
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3 p-3 c"
+                            style="height: 180px;background-image: linear-gradient(64.4deg,rgba(245,116,185,1)14.8%,rgba(89,97,223,1)88.7%);"
+                            id="card">
+                            <div class="card-body">
+
+                                <div class="weeklySaleTextAndIcon">
+                                    <span>
+                                        Visitors Online
+
+                                    </span>
+                                    <i class="fas fa-users-line"></i>
+
+                                    </i>
+                                </div>
+                                <h4 class="my-4">9650000</h4>
+
+
+                                <div class="increase">
+                                    Increased by 6%
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row flex-column flex-lg-row graphs ">
+                    <div class="col col-md-7 col-sm-12 ">
+                        <div class="card p-3 mb-3">
+                            <div class="card-body">
+                                <div class="visitAndSale mb-3">
+                                    Visit And Sales Statistic
+                                </div>
+                                <canvas id="myChart"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col col-md-5 col-sm-12 ">
+                        <div class="card p-3 mb-3">
+                            <div class="card-body">
+                                <div class="traffic mb-3">
+                                    Traffic Sources
+                                </div>
+
+
+                                <canvas id="chart"></canvas>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row flex-column flex-lg-row">
+                    <div class="col ">
+                        <div class="card mb-3 ">
+                            <div class="card-body">
+                                <div class="traffic my-3">
+                                    Recent Users
+                                </div>
+
+
+                                <table class="table" id="t">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">
+                                                #
+                                            </th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Email</th>
+                                            <th scope="col">Status</th>
+                                            <th scope="col">Start Use</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>01</td>
+                                            <td>Mark</td>
+                                            <td>mark243@gmail.com</td>
+                                            <td>
+                                                <span class="badge bg-success">active</span>
+                                            </td>
+                                            <td>2/5/2022</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>02</td>
+                                            <td>Mark</td>
+                                            <td>mark243@gmail.com</td>
+                                            <td>
+                                                <span class="badge bg-success">active</span>
+                                            </td>
+                                            <td>2/5/2022</td>
+                                        </tr>
+
+
+                                        <tr>
+                                            <td>03</td>
+                                            <td>Mark</td>
+                                            <td>mark243@gmail.com</td>
+                                            <td>
+                                                <span class="badge bg-success">active</span>
+                                            </td>
+                                            <td>2/5/2022</td>
+                                        </tr>
+
+
+                                        <tr>
+                                            <td>04</td>
+                                            <td>Mark</td>
+                                            <td>mark243@gmail.com</td>
+                                            <td>
+                                                <span class="badge bg-success">active</span>
+                                            </td>
+                                            <td>2/5/2022</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>05</td>
+                                            <td>Mark</td>
+                                            <td>mark243@gmail.com</td>
+                                            <td>
+                                                <span class="badge bg-success">active</span>
+                                            </td>
+                                            <td>2/5/2022</td>
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="traffic my-3">
+                                    Recent Orders
+                                </div>
+
+                                <table class="table" id="t2">
+                                    <thead>
+                                        <tr>
+                                            <th>Order NO</th>
+                                            <th>Name</th>
+                                            <th>Ph no</th>
+                                            <th>Products</th>
+                                            <th>Status</th>
+
+                                            <th>Price</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>01</td>
+                                            <td>June</td>
+                                            <td>092332323</td>
+                                            <td>Clear Shampu</td>
+                                            <td>
+                                                <span class="badge bg-success">
+                                                    booking
+                                                </span>
+                                            </td>
+                                            <td>$ 90</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02</td>
+                                            <td>June</td>
+                                            <td>092332323</td>
+                                            <td>Clear Shampu</td>
+                                            <td>
+                                                <span class="badge bg-success">
+                                                    booking
+                                                </span>
+                                            </td>
+                                            <td>$ 90</td>
+                                        </tr>
+                                        <tr>
+                                            <td>03</td>
+                                            <td>June</td>
+                                            <td>092332323</td>
+                                            <td>Clear Shampu</td>
+                                            <td>
+                                                <span class="badge bg-success">
+                                                    booking
+                                                </span>
+                                            </td>
+                                            <td>$ 90</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>04</td>
+                                            <td>June</td>
+                                            <td>092332323</td>
+                                            <td>Clear Shampu</td>
+                                            <td>
+                                                <span class="badge bg-success">
+                                                    booking
+                                                </span>
+                                            </td>
+                                            <td>$ 90</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>05</td>
+                                            <td>June</td>
+                                            <td>092332323</td>
+                                            <td>Clear Shampu</td>
+                                            <td>
+                                                <span class="badge bg-success">
+                                                    booking
+                                                </span>
+                                            </td>
+                                            <td>$ 90</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var changeDark = document.getElementById('changeDark');
+        var changeLight = document.getElementById('changeLight');
+        var body = document.querySelector('body');
+        var cards = document.querySelectorAll('.card');
+        var table = document.getElementById('t');
+        var table2 = document.getElementById('t2');
+
+        changeDark.addEventListener("click", function () {
+
+            changeLight.style.display = "inline-block";
+            changeDark.style.display = "none";
+
+            body.classList.toggle('black');
+            table.classList.toggle('text-w');
+            table2.classList.toggle('text-w')
+            for (var i = 0; i < cards.length; i++) {
+
+                cards[i].classList.toggle('black');
+
+            }
+
+        });
+
+        changeLight.addEventListener("click", function () {
+
+            changeLight.style.display = "none";
+            changeDark.style.display = "inline-block";
+
+            body.classList.toggle('black');
+            table.classList.toggle('text-w');
+            table2.classList.toggle('text-w')
+            for (var i = 0; i < cards.length; i++) {
+
+                cards[i].classList.toggle('black');
+
+            }
+
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    <script src="bootstrap-5.2.1-dist/js/bootstrap.bundle.js"></script>
+    <script src="chart.min.js"></script>
+    <script>
+        const ct = document.getElementById('myChart').getContext('2d');
+        ct.canvas.height = 200;
+        const labels = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG'];
+        const dataPoints = [12, 19, 3, 5, 2, 3];
+        const myChart = new Chart(ct, {
+            type: 'line',
+
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Profit',
+                    data: dataPoints,
+
+                    // backgroundColor: [
+                    //     'rgba(255, 99, 132, 0.2)',
+                    //     'rgba(54, 162, 235, 0.2)',
+                    //     'rgba(255, 206, 86, 0.2)',
+                    //     'rgba(75, 192, 192, 0.2)',
+                    //     'rgba(153, 102, 255, 0.2)',
+                    //     'rgba(255, 159, 64, 0.2)'
+                    // ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+
+
+
+
+        const ctx = document.getElementById('chart').getContext('2d');
+
+        const label = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG'];
+        const dataPoint = [12, 19, 3, 5, 2, 3];
+        const chart = new Chart(ctx, {
+            type: 'pie',
+
+            data: {
+                labels: label,
+
+                datasets: [{
+                    label: label,
+                    data: dataPoint,
+
+                    backgroundColor: [
+                        'rgba(255, 99, 132)',
+                        'rgba(54, 162, 235)',
+                        'rgba(255, 206, 86)',
+                        'rgba(75, 192, 192)',
+                        'rgba(153, 102, 255)',
+                        'rgba(255, 159, 64)'
+                    ],
+
+                    borderWidth: 1
+                }]
+            },
+            options: {
+
+
+            }
+        });
+
+
+
+
+    </script>
+
+</body>
+
+</html>

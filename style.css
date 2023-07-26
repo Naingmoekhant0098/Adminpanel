@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+body{
+    font-family: Poppins, sans-serif;
+
+}
+.header{
+    font-size: 19px;
+    font-weight: 600;
+}
+.header i{
+    color: rgb(4, 116, 215);
+    padding-right: 5px;
+}
+.notiAndProfile{
+    display: flex;
+     
+    align-items: center;
+}
+.ovText{
+    font-size: 14px;
+}
+.overview i{
+    font-size: 13px;
+    
+}
+ 
+.dashboard_container{
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+ font-size: 13px;
+ 
+}
+.text-w{
+    color: #fff;
+}
+
+.visitAndSale{
+    font-size: 13px;
+    font-weight: 600;
+}
+.black {
+    background-color: #333;
+    color: #fff;
+     
+}
+ 
+.traffic{
+    font-size: 14px;
+    font-weight: 600;
+}
+ 
+/* .total-graph #card:nth-child(1){
+    background-image: linear-gradient(102.4deg,rgba(253,189,85,1)7.8%,rgba(249,131,225,1)100.3%);
+} */
+.iconAndText i{
+    padding: 10px;
+    background-color: rgb(144, 29, 232);
+    border-radius: 5px;
+    color: #fff;
+}
+ 
+.weeklySaleTextAndIcon{
+    display: flex;
+    justify-content: space-between;
+     
+    align-items: center;
+}
+.increase{
+    font-size: 13px;
+}
+ #changeLight{
+    display: none;
+     
+ }
+.iconAndText .text{
+    font-weight: 600;
+}
+ /* .sec{
+    background-color: rgb(214, 214, 214);
+ } */
+ 
+.noti i{
+    padding: 5px;
+    border-radius: 100%;
+    
+    text-align: center;
+    margin-right: 10px;
+}
+.nav_container{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.search_btn{
+    outline: none;
+    border: 0;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: rgb(9, 100, 153);
+    box-shadow: 0px 0px 3px #333;
+    color: #fff;
+}
+.sr{
+    border: 0;
+    padding: 10px;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 20px;
+    background-color: rgb(195, 193, 193);
+}
+ 
+.sr:focus{
+    border: 0;
+    outline: none;
+}
+.pf{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid rgb(9, 178, 234);
+}
+.profile{
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile .name{
+    font-size: 15px;
+    font-weight: 500;
+}
+.profile .email{
+    font-size: 12px;
+    font-weight: 300;
+     
+}
+.navs  .nav{
+    padding: 10px 0px;
+    font-size: 14px;
+     
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.nav i{
+    font-size: 15px;
+}
+.nav:hover{
+    color: rgb(238, 66, 9);
+}
+
+
+ 
